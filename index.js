@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#! /usr/bin/env node 
+// Thsi calculator is created by me
 import inquirer from 'inquirer';
 let answer = await inquirer.prompt([{ message: "Enter 1st number", type: "number", name: "num1" },
     { message: "Enter 2nd number", type: "number", name: "num2" },
