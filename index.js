@@ -1,5 +1,5 @@
 #! /usr/bin/env node 
-// This calculator is created by me
+console.log("WELCOME TO CALCULATOR APPLICATION");
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([{
         message: "Enter 1st number",
@@ -36,5 +36,7 @@ else if (answer.operator === "Exponent ** ") {
     console.log(answer.num1 ** answer.num2);
 }
 else {
-    console.log("enter valid operator");
+    console.log("Enter valid operator");
 }
+console.log("THANKS FOR YOUR INTEREST");
+process.exit();
