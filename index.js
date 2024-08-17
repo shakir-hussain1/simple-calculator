@@ -36,5 +36,5 @@ else if (answer.operator === "Exponent ** ") {
     console.log(answer.num1 ** answer.num2);
 }
 else {
-    console.log("select valid operator");
+    console.log("enter valid operator");
 }

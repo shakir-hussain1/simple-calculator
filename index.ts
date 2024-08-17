@@ -1,4 +1,5 @@
 #! /usr/bin/env node 
+
 // This calculator is created by me
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([{
@@ -40,6 +41,6 @@ let answer = await inquirer.prompt([{
     else if(answer.operator === "Exponent ** ") 
         {
         console.log(answer.num1 ** answer.num2);
-    } 
+    }
     else 
-    {console.log("select valid operator");}
+    {console.log("enter valid operator");}
